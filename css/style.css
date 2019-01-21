@@ -1,7 +1,11 @@
 @charset "UTF-8";
 
+body{
+  font-family: 'Lato';
+}
 a{
   text-decoration: none;
+  display: inline-block;
 }
 .width_size{
   width: 1100px;
@@ -12,20 +16,17 @@ a{
   content: "";
   clear: both;
 }
-.crw{
+.whitecolor{
   color: #fff;
 }
-.cob{
+.textcolor{
   color:  #333;
 }
-.bgcogl{
+.backrlound-white{
   background-color: #f2f2f2;
 }
-.bgcoge{
+.backrlound-Green{
   background-color: #74cfae;
-}
-.body{
-  font-family: 'Lato';
 }
 .font_Raleway{
   font-family: 'Raleway';
@@ -51,8 +52,11 @@ a{
   padding: 14px 12px;
   float: right;
 }
+main{
+  padding-top: 80px; 
+}
 .title{     
-  padding:330px 0 250px;
+  padding:250px 0 250px;
   text-align: center; 
 }
 .title_box_text_top{
@@ -93,22 +97,20 @@ a{
   text-align: center;
   margin-bottom:40px;
 }
-.main_works_box_rink{
+.main_works_box_link{
+  vertical-align: center;
   margin-right: 100px;
   float:left;
-}
-.main_works_img{ 
-  vertical-align: bottom;
   opacity: 0.7;
   transition: 0.3s;
 }
-a > img:hover{
+.main_works_box_img > a:hover{
   opacity: 1;
 }
-.main_works_box_rink:nth-child(n+4){
+.main_works_box_link:nth-child(n+4){
   margin-top: 80px;
 }
-.main_works_box_rink:nth-child(3n){
+.main_works_box_link:nth-child(3n){
   margin-right: 0;
 }
 .main_works_box_smoll{
@@ -122,13 +124,13 @@ a > img:hover{
   width: 530px;  
   text-align: center;
 }
-.main_works_box_botann{
+.main_works_box_button{
   font-size: 12px;
   padding: 20px;  
   transition: 0.3s;
   cursor: pointer; 
 }
-.main_works_box_botann:hover{
+.main_works_box_button:hover{
   color:  #333;
 }
 .main_skill{
@@ -150,7 +152,7 @@ a > img:hover{
   font-size: 16px;
 }
 .main_skill_img:first-child{
-  margin-left: 40px;
+  margin-left: 0;
 }
 .main_nav{
   padding: 200px 0;
