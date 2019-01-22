@@ -84,7 +84,7 @@ main{
 .main_works_box_img > a:hover{
   opacity: 1;
 }
-.main_works_box_button:hover{
+.main_works_box_smoll > a:hover{
   color:  #333;
 }
 .main_nav_box > a:hover{
