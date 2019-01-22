@@ -13,104 +13,112 @@
     <meta name="keyword" content="bolt, bootstrap, portfolio">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   </head>
-    <body>
-      <header class="header">
-      　<div class="header_box clearfix">
-      　　<i class="fa fa-bolt fa-3x header_bolt"></i>
-        　<a href="#" class="header_box_contact backrlound-Green whitecolor">Contact</a>
+  <body>
+    <header class="header">
+      <div class="header_box clearfix">
+        <i class="fa fa-bolt fa-3x header_bolt"></i>
+        <a href="#" id="target" class="header_box_contact backrlound-Green whitecolor">Contact</a>
+        <div id="button" class="humberger">
+          <input  type="button" class="humberger" onclick="changeDisplay();" />
+          <div></div>
+          <div></div>
+          <div></div>
         </div>
-      </header>
-      <main>
-       <div Class="title backrlound-white">
-  　　　　<div Class="title_box width_size">
-  　　　　　<h1 class="title_box_text_top">Bolt Theme</h1>
-  　    　 <p class="title_box_text_bottom">FREE BOOTSTRAP THEMES</p>
-      　　</div>
+      </div>
+    </header>
+    <main>
+      <div Class="title backrlound-white">
+        <div Class="title_box width_size">
+          <h1 class="title_box_text_top font_Raleway">Bolt Theme</h1>
+            <p class="title_box_text_bottom">FREE BOOTSTRAP THEMES</p>
         </div>
-        <article class="main_what backrlound-Green">
+      </div>
+      <article class="main_what backrlound-Green">
         <div class="main_what_box clearfix width_size">
           <div class="main_box_left">
             <img src="img/iphone.png" class="main_what_img">
           </div> 
-            <div class="main_box_right">
-              <h2 class="main_what_top_text whitecolor font_Raleway">WHAT WE CAN DO?</h2>
-              <p class="main_what_bottom_text whitecolor">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            </div>
+          <div class="main_box_right">
+            <h2 class="main_what_top_text whitecolor font_Raleway">WHAT WE CAN DO?</h2>
+            <p class="main_what_bottom_text whitecolor">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
           </div>
-        </article>
-        <section class="main_works backrlound-white">
-          <div class="main_works_box  width_size">
-            <h2 class="main_works_box_name textcolor font_Raleway">OUR LATEST WORK</h2>
-            <div class="main_works_box_img clearfix">
-              <a href="#" class="main_works_box_link">
-                <img src="img/01.jpg">
-              </a>
-              <a href="#" class="main_works_box_link">
-                <img src="img/02.jpg">
-              </a> 
-              <a href="#" class="main_works_box_link">
-                <img src="img/03.jpg">
-              </a>
-              <a href="#" class="main_works_box_link"> 
-                <img src="img/04.jpg">
-              </a>
-              <a href="#" class="main_works_box_link"> 
-                <img src="img/05.jpg">
-              </a>
-              <a href="#" class="main_works_box_link"> 
-                <img src="img/06.jpg">
-              </a>
-            </div>
-              <div class="main_works_box_smoll ">
-                <p class="main_works_box_text textcolor">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
-                <a href="#" class="main_works_box_button backrlound-Green whitecolor">Email Me!</a>
-              </div>
-          </div>
-        </section>
-        <section class="main_skill whitecolor">
-          <div class="main_skill_box width_size">
-            <h2 class="main_skill_name font_Raleway">OUR SKILLS</h2>
-            <div class="main_skill_img_box clearfix">
-            <figure>
-              <div class="main_skill_img whitecolor">
-                <img src="img/circle_01.png"><p>JavaScript</p>
-              </div>
-              <div class="main_skill_img whitecolor">
-                <img src="img/circle_02.png"><p>Bootstrap</p>
-              </div>
-              <div class="main_skill_img whitecolor">
-                <img src="img/circle_03.png"><p>WordPress</p>
-              </div>
-              <div class="main_skill_img whitecolor">
-                <img src="img/circle_04.png"><p>Photoshop</p>
-              </div>
-            </figure>
-            </div>
-          </div>
-        </section>
-        <nav class="main_nav backrlound-white">
-          <div class="main_nav_box width_size backrlound-white">
-            <a href="#" class="main_nav_box_fa">
-            <i class="fa fa-facebook nav_fa"></i>
-            </a>
-            <a href="#" class="main_nav_box_fa">
-            <i class="fa fa-dribbble nav_fa"></i>
-            </a>
-            <a href="#" class="main_nav_box_fa">
-            <i class="fa fa-twitter nav_fa"></i>
-            </a>
-            <a href="#" class="main_nav_box_fa">
-            <i class="fa fa-envelope nav_fa"></i>
-            </a>
-          </div>
-        </nav>
-      </main>
-      <footer class="footer_box backrlound-Green">
-        <div class="footer_box_text width_size">
-         <p class="footer_box_txt_in whitecolor">Crafted with 
-         <i class="fa fa-heart footer_box_txt_in whitecolor"></i> by BlackTie.co.</p>
         </div>
-      </footer>
-      <script src="js/script.js"></script>
-    </body>
+      </article>
+      <section class="main_works backrlound-white">
+        <div class="main_works_box  width_size">
+          <h2 class="main_works_box_name textcolor font_Raleway">OUR LATEST WORK</h2>
+          <div class="main_works_box_img clearfix">
+            <a href="#" class="main_works_box_link">
+              <img src="img/01.jpg">
+            </a>
+            <a href="#" class="main_works_box_link">
+              <img src="img/02.jpg">
+            </a> 
+            <a href="#" class="main_works_box_link">
+              <img src="img/03.jpg">
+            </a>
+            <a href="#" class="main_works_box_link"> 
+              <img src="img/04.jpg">
+            </a>
+            <a href="#" class="main_works_box_link"> 
+              <img src="img/05.jpg">
+            </a>
+            <a href="#" class="main_works_box_link"> 
+              <img src="img/06.jpg">
+            </a>
+          </div>
+            <div class="main_works_box_smoll ">
+              <p class="main_works_box_text textcolor">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+              <a href="#" class="main_works_box_button backrlound-Green whitecolor">Email Me!</a>
+            </div>
+        </div>
+      </section>
+      <section class="main_skill whitecolor">
+        <div class="main_skill_box width_size">
+          <h2 class="main_skill_name font_Raleway">OUR SKILLS</h2>
+          <div class="main_skill_img_box clearfix">
+            <figure class="main_skill_img whitecolor">
+              <img src="img/circle_01.png">
+              <figcaption>JavaScript</figcaption>
+            </figure>
+            <figure class="main_skill_img whitecolor">
+              <img src="img/circle_02.png">
+              <figcaption>Bootstrap</figcaption>
+            </figure>
+            <figure class="main_skill_img whitecolor">
+              <img src="img/circle_03.png">
+              <figcaption>WordPress</figcaption>
+            </figure>
+            <figure class="main_skill_img whitecolor">
+              <img src="img/circle_04.png">
+              <figcaption>Photoshop</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+      <nav class="main_nav backrlound-white">
+        <div class="main_nav_box width_size backrlound-white">
+          <a href="#" class="main_nav_box_fa">
+          <i class="fa fa-facebook nav_fa"></i>
+          </a>
+          <a href="#" class="main_nav_box_fa">
+          <i class="fa fa-dribbble nav_fa"></i>
+          </a>
+          <a href="#" class="main_nav_box_fa">
+          <i class="fa fa-twitter nav_fa"></i>
+          </a>
+          <a href="#" class="main_nav_box_fa">
+          <i class="fa fa-envelope nav_fa"></i>
+          </a>
+        </div>
+      </nav>
+    </main>
+    <footer class="footer_box backrlound-Green">
+      <div class="footer_box_text width_size">
+        <p class="footer_box_txt_in whitecolor">Crafted with 
+        <i class="fa fa-heart footer_box_txt_in whitecolor"></i> by BlackTie.co.</p>
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
 </html>
